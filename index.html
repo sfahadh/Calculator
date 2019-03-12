@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Functional Calculator</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="pages/calculator.js"></script>
+
+</head>
+<body>
+    <h1>Calculator</h1>
+        <form name="calculator" id="calculator">
+            <input type="text" name="ENTER" id="head" size="15">
+
+            <div class="operators">
+                <input class="calc" type="button" value="+" onclick="plus()">  <!-- (+) value -->
+                <input class="calc" type="button" value="-"
+                onclick="minus()"> <!-- (-) value -->
+                <input class="calc" type="button" value="/"
+                onclick="divide()"> <!-- (/) value -->
+                <input class="calc" type="button" value="x"
+                onclick="multiply()"> <!-- (x) value -->
+            </div>
+            
+            <div class="area">
+                <input class="ar" type="button" value="1" onclick="one()"> <!-- (1) value -->
+                <input class="ar" type="button" value="2" onclick="two()"> <!-- (2) value -->
+                <input class="ar" type="button" value="3" onclick="three()"> <!-- (3) value -->
+                <input class="ar" type="button" value="CLEAR" onclick="clearf()"> <!-- (CLEAR) value -->
+        
+                <input class="ar" type="button" value="4" onclick="four()"> <!-- (4) value -->
+                <input class="ar" type="button" value="5" onclick="five()"> <!-- (5) value -->
+                <input class="ar" type="button" value="6" onclick="six()"> <!-- (6) value -->
+                <input class="ar" type="button" value="AVG" onclick="average()">
+    
+                <input class="ar" type="button" value="7" onclick="seven()"> <!-- (7) value -->
+                <input class="ar" type="button" value="8" onclick="eight()"> <!-- (8) value -->
+                <input class="ar" type="button" value="9" onclick="nine()"> <!-- (9) value -->
+                <input class="ar" type="button" value="OFF" onclick="off()"> <!-- (off) value -->
+    
+                <input class="ar" type="button" value="0" onclick="zero()"> <!-- (0) value -->
+                <input class="ar" type="button" value="." onclick="dot()"> <!-- (.) value -->
+                <input class="ar" type="button" value="+/-" onclick="negative()"> <!-- (+/-) value -->
+                <input class="ar" type="button" value="=" onclick="equal()"> <!-- (=) value -->
+                
+            </div>
+
+        <h3>&copy 2019 Fahad Hussain</h3>
+    </div>
+</body>
+</html>
